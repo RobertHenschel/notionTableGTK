@@ -12,7 +12,8 @@ Before running the application, you need to make 2 changes to *config.dat*. Thos
 
 The first entry that needs to be set in *config.dat* is *token_v2*, which is the access token to your Notion account. You can find that token by looking at cookies that the notion website stores in your browser. The value you are looking for is called *token_v2* and it is stored in a cookie for *www.notion.so*. You are looking for a value that is 150 or more characters long and contains letters and digits.
 
-The other entry in *config.dat* is *collectionID*, which is the URL to the collection/table in Notion. You can retrieve this by navigating to the collection in your browser and then open the *menu* for the collection and copy the link. What you are looking for is the link to the collection, not the link to the page that contains the collection! Here is a picture that may help point you in the right direction. ![](./img/notionCollectionLink.jpg)
+The other entry in *config.dat* is *collectionID*, which is the URL to the collection/table in Notion. You can retrieve this by navigating to the collection in your browser and then open the *menu* for the collection and copy the link. What you are looking for is the link to the collection, not the link to the page that contains the collection! Here is a picture that may help point you in the right direction. 
+<img src="./img/notionCollectionLink.jpg" width="400">
 
 *config.dat* should look something like this, just with way longer lines:
 
@@ -29,6 +30,6 @@ This application should work for arbitrary collection in Notion, but was only te
 ## Example Output
 
 Here is a screen shot of what a collection in Notion looks like, and how it is displayed in the GTK+ 3 Treeview widget.
-
-![](./img/NotionCollection.jpg) ![](/home/henschel/Desktop/notionTableGTK/img/GTKApp.jpg)
+<img src="./img/NotionCollection.jpg" width="281">
+<img src="./img/GTKApp.jpg" width="310">
 
