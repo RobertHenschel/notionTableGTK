@@ -26,7 +26,7 @@ Once *config.dat* is updated you should be good to run the application.
 
 ## Features and Limitations
 
-This application should work for arbitrary collection in Notion, but was only tested on a few examples. All property types of a Notion collection are converted to a *string* in python, which may not be optimal for displaying them. Customization to the view of a collection are not preserved, meaning filters and custom sort orders are be ignored. Both features could be implemented through the notion-py API or in the tree view list store. The application has only been tested on Linux.
+This application should work for arbitrary collections in Notion, but was only tested on a few examples. All property types of a Notion collection are converted to a *string* in python, which may not be optimal for displaying them. Customizations to the view of a collection are not preserved, meaning filters and custom sort orders are ignored. Both features could be implemented through the notion-py API or in the tree view list store. The application has only been tested on Linux.
 
 ## Example Output
 
