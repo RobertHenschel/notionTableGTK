@@ -62,5 +62,6 @@ The application has only been tested on Linux, please use at your own risk!
 ## Example Output
 
 Here is a screen shot of what a ToDo collection in Notion looks like, and how it is displayed in the GTK+ 3 Treeview widget.
-<img src="./img/NotionCollectionToDo.jpg" width="281">
+
+<img src="./img/NotionCollectionToDo.jpg" width="300">
 <img src="./img/GTKAppToDo.jpg" width="310">
